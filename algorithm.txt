@@ -1,1 +1,21 @@
 THINK before you code...
+1: Ask the user which mobile phone package they have(green, blue, or purple).
+
+Green: 49.99 per month for 2GB
+  - 15 dollars per extra GB
+  - If bill is more than 75, ask if they have a coupon if true take 20 dollars off
+  - account for extra GBs; anything greater than 2 GBs
+
+Blue: 70 per month for 4 GB
+  - 10 dollers per additional GB
+
+Purple: 99.95 per month for unlimited data
+
+2: Ask the user how much data they used that month
+
+3: create nested if/elif/else statements that can accomplish the following:
+  - tell how much they owe for their montly bill
+      - do not forget about coupon for the green package
+  - note: there is no roll over data
+
+4: if invalid inital user input, print a statement telling them it is an invalid input and to restart the program.
